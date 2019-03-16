@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>ProfileMag - Free</title>
+<style>
+/* latin-ext */
+@font-face{font-family:'Titillium Web';font-style:normal;font-weight:400;src:local('Titillium Web Regular'),local('TitilliumWeb-Regular'),url(https://fonts.gstatic.com/s/titilliumweb/v6/7XUFZ5tgS-tD6QamInJTcSo_WB_cotcEMUw1LsIE8mM.woff2) format('woff2');unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF;}
+/* latin */
+@font-face{font-family:'Titillium Web';font-style:normal;font-weight:400;src:local('Titillium Web Regular'),local('TitilliumWeb-Regular'),url(https://fonts.gstatic.com/s/titilliumweb/v6/7XUFZ5tgS-tD6QamInJTcZSnX671uNZIV63UdXh3Mg0.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215;}
+/* latin-ext */
+@font-face{font-family:'Titillium Web';font-style:normal;font-weight:700;src:local('Titillium Web Bold'),local('TitilliumWeb-Bold'),url(https://fonts.gstatic.com/s/titilliumweb/v6/anMUvcNT0H1YN4FII8wpr-y7CP8YvcHYdGV61pt7QTE.woff2) format('woff2');unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF;}
+/* latin */
+@font-face{font-family:'Titillium Web';font-style:normal;font-weight:700;src:local('Titillium Web Bold'),local('TitilliumWeb-Bold'),url(https://fonts.gstatic.com/s/titilliumweb/v6/anMUvcNT0H1YN4FII8wprxP6Eu1_xfSBSoi9uie1FdE.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215;}
+:root{--templatesilk:#ef4749;}
+body{margin:0;font-family:'Titillium Web',sans-serif;}
+a:link,a:visited{text-decoration:none;}
+header{background:url(https://4.bp.blogspot.com/-Vj85JpGSjGc/WgRqz1FCZyI/AAAAAAAAAbY/KjGIxUt7ybw4jBklLBq9HUeQIuHmJyQUQCK4BGAYYCw/s0/abstract-background-design_1297-82.jpg);padding:30px 10px 80px 10px;}
+.title{color:#FFF;text-align:center;padding-left:50px;float:left;}
+.title a{color:#FFF;}
+.title h1{text-transform:capitalize;font-size:26px;padding:0;margin:0;letter-spacing:2px;}
+.title p{font-size:10px;letter-spacing:5px;margin:0;margin-top:10px;}
+.header-menu{float:right;padding:10px 30px 0 0;}
+.header-menu ul{margin:0;}
+.header-menu li{display:inline-block;position:relative;z-index:100;margin:0;}
+.header-menu li a{text-decoration:none;padding:10px 12px;display:block;color:#fff;text-transform:uppercase;font-size:19px;}
+.header-menu li a:hover{color:var(--templatesilk);background:#ffffff;}
+nav{position:fixed;bottom:auto;z-index:200;width:25%;float:left;height: 100vh;overflow: auto;}
+nav ul{list-style:none;padding:0;margin:0;}
+nav li{border-bottom:1px solid #EEE;padding-left:25px;}
+nav a{display:inline-block;color:#333;text-decoration:none;font-size:1em;font-weight:bold;width:100%;padding:14px 0;}
+nav a:hover,nav .active-section{color:var(--templatesilk);}
+section{margin:auto;width:75%;float:right;background:#FBFBFB;border-left:1px solid #EEE;}
+section li{list-style-type:none;}
+.content-section{margin:auto;max-width:900px;border:solid 1px #e9e9e9;padding:20px;background-color:#f5f5f5;margin-bottom:20px;}
+.content-section p,.content-section span{margin:25px 0;font-size:16px;color:#333;line-height:30px;}
+.content-section b{color:var(--templatesilk);}
+i{color:var(--templatesilk);font-style:normal;font-weight:bold;}
+.content-section p:first-letter{color:#fff;background-color:var(--templatesilk);padding:5px 12px;margin-right:10px;}
+.content-section h2{border-left:solid 4px #333;padding:5px 10px;font-size:22px;}
+.content-section h3{padding:10px;font-size:18px;}
+.content-section img{max-width:100%;margin:15px auto;display:block;background:#666;padding:2px;}
+.thanks{margin:auto;max-width:910px;font-size:18px;background-color:whitesmoke;border:solid 1px #e9e9e9;padding:10px;margin-bottom:30px;border-left:solid 4px #000;margin-top:50px;}
+.templatesilk-logo{margin:auto;max-width:140px;}
+@media screen and (max-width:1000px){nav,.header-menu,.templatesilk-logo{display:none;}.content-section{max-width:1000px;}section,.title{width:100%;}.title{padding-left:0;}}
+
+</style>
+   
+  </head>
+
+  <body>
+      
+<nav>
+    <ul>
+        <li><a href="#section1">Installation</a></li>               
+        <li><a href="#section2">Customization</a></li>              
+        <li><a href="#section3">Menu</a></li>              
+        <li><a href="#section4">Profile & Cover Photo</a></li>              
+        <li><a href="#section5">About</a></li>                
+        <li><a href="#section6">Skills</a></li>                
+        <li><a href="#section7">Social Icons</a></li>                
+        <li><a href="#section8">Social Connection</a></li>                
+        <li><a href="#section9">Gallery</a></li>                
+        <li><a href="#section10">Favorite Movies</a></li>                
+        <li><a href="#section11">Favorite Personality</a></li>                
+        <li><a href="#section12">SEO</a></li>                
+    </ul>
+</nav>
+
+<section>
+
+    <header>
+        <div class='title'>
+        <h1><a href='http://templatesilktheme.blogspot.com/'>ProfileMag - Free</a></h1>
+        <p>Theme Documentation</p>
+      </div>
+            <div class='header-menu'>
+            <ul>
+                <li><a href="http://www.templatesilk.com/">Home</a></li>
+                <li><a href="http://www.templatesilk.com/p/service.html">Service</a></li>
+                <li><a href="http://www.templatesilk.com/p/support.html">Support</a></li>
+                <li><a href="http://www.templatesilk.com/p/contact-us.html">Contact</a></li>
+            </ul>
+        </div>
+      </header>
+	  
+    <h1 class='thanks'>Thanks for <i>Downloading</i> our Theme, Follow the below steps to setup your blog.</h1>
+    
+<li id="section1" class="content-section">
+    
+<h2>Installation</h2>
+<h3>How to Create a New Blog?</h3>
+<p>1 Go to <a href='https://www.blogger.com' target='_blank'><b>blogger.com</b></a></p>
+<p>2 Click <b>Create Your Blog</b> and Sign in with your Google Account.</p>
+<img src="https://4.bp.blogspot.com/-i2k448jTDAM/WNPcgGF_fpI/AAAAAAAAAYM/1Q2spoeIRbUQU4qc-EtQFv6qF8yOcCLcQCLcB/s1600/1.PNG">
+<img src="https://4.bp.blogspot.com/-48ws9zIel9A/WNPcjyb6e5I/AAAAAAAAAYg/HcCJlFWbgd8T2G-Fx1w2NLHKHaZJ2Ta5QCLcB/s1600/2.png">
+
+<p>3 See the below video for better consideration.</p>
+<div style="text-align: center;"><iframe src="https://www.youtube.com/embed/pYATJ1RMtXI?ecver=1" width="640" height="360" frameborder="0" style="border: solid #333;max-width: 100%;" allowfullscreen></iframe></div>
+
+<h3>How to Upload a Blogger Theme?</h3>
+<p>1 Click on <b>Theme</b>.</p>
+<p>2 Click on <b>Backup / Restore</b>.</p>
+<img src="https://1.bp.blogspot.com/-DI8bwDIL1_o/WNPclSZS23I/AAAAAAAAAY0/uPi4KhkYTgoZA-kGcqywUY46qAs5vnxIQCLcB/s1600/3.png">
+<p>3 Click on <b>Choose File</b> Select the File in XML Format which is given in Zip File (Extract the Zip file into folder first).</p>
+<p>4 Click on <b>Upload</b>, That's it.</p>
+<img src="https://1.bp.blogspot.com/-HErVkLcQnCg/WNPclNVXfoI/AAAAAAAAAYs/BJCwOKuRjmwW-0u82Hky_3g8ny5gxYrQQCLcB/s1600/4.png">
+
+</li>
+
+<li id="section2" class="content-section">
+    
+<h2>Customization</h2>
+<p>1 Click on <b>Theme</b>.</p>
+<p>2 Click on <b>Customise</b>.</p>
+<img src="https://1.bp.blogspot.com/-2GgJb-VfDNw/WNPclBiJu4I/AAAAAAAAAYw/Ei5WCffw0-c5CikHyS8_pC_LGjC7LHPEACLcB/s1600/3.1.png">
+<p>3 For Edit &amp; change the theme colors, images, fonts &amp; much more, see the below video and enjoy this awesome creativity.</p>
+<div style="text-align: center;"><iframe src="https://www.youtube.com/embed/Jg2h1sYZylk?ecver=1" width="640" height="360" frameborder="0" style="border: solid #333;max-width: 100%;" allowfullscreen></iframe></div>
+</li>
+
+<li id="section3" class="content-section">
+<h2>Switch Menu</h2>
+<span>For adding your links and icons in the Switch menu. So follow the below steps.</span>
+<p>1 Go to <b>Theme >> Edit HTML</b>.</p>
+<p>2 Click inside the HTML Box at once for focus and press <b>CTRL+F</b> (For Calling Hidden Search Box) then search <b>'header-logo'</b> and replace the Text in <b>Blue</b> color with your Menu Icon name and Text in <b>Red</b> color with your Menu text name.</p>
+<img src="https://1.bp.blogspot.com/-M74By6S_VYk/WhKXdDStP3I/AAAAAAAAAow/F-dCilWCV48x_7kIxvghZrjU2eArqcPGACLcBGAs/s1600/1.PNG">
+</li>
+
+<li id="section4" class="content-section">
+    
+<h2>Profile & Cover Photo</h2>
+
+<p>1 Go to <b>Layout</b>.</p>
+<p>2 Click on <b>Edit</b>.</p>
+<img src="https://2.bp.blogspot.com/-czB7Rliz_LQ/WhKXcEdBzYI/AAAAAAAAAoo/eyeb527MB2Isgwrx3HjLpdRcGdRgjl-mACLcBGAs/s1600/2.1.PNG">
+
+<p>3 Click on <b>Remove Image</b></p>
+<img src="https://1.bp.blogspot.com/-m00QMM-IVxA/WhKXdcHF4EI/AAAAAAAAAo0/53CSHYzY8JcjfGhudhV--2Els7XyFId8wCLcBGAs/s1600/2.2.png">
+<p>4 Click on <b>Choose File</b> to Upload Image. OR From the Web. Past an <b>Image URL</b> below.</p>
+<p>5 Click on <b>Save</b>.</p>
+<img src="https://1.bp.blogspot.com/-PiqlF1RyeRs/WhKXdzlZYeI/AAAAAAAAAo4/rcvNhdBrSwgqE0OD_Tl5rLq8rQNjovU9QCLcBGAs/s1600/2.3.png">
+<p>6 <b>NOTE :</b> Apply this same method to change Profile Image.</p>
+
+</li>
+
+<li id="section5" class="content-section">
+<h2>About</h2>
+<p>1 Go to <b>Theme >> Edit HTML</b>.</p>
+<p>2 Click inside the HTML Box and press <b>CTRL+F</b> then search <b>'about-box'</b> &amp; and replace the text information in paragraph <b>< p ></b> tag with your info.</p>
+<img src="https://4.bp.blogspot.com/-BAVrw-PhlLE/WhKXgmOgobI/AAAAAAAAApA/MBkmX1_WTdEOTfkI1yNZh5wCyFM0y2tgACLcBGAs/s1600/3.1.png">
+<p>3 If you want to add more information about you then search <b>'about-box-overlay'</b> &amp; and replace the text information in paragraph <b>< p ></b> tag with your info.</p>
+<img src="https://2.bp.blogspot.com/-AvKxTSYNwlA/WhKXg-7b6zI/AAAAAAAAApE/DdrGS3w88XckfZWuxuvIQ6qKPg-mayKoACLcBGAs/s1600/3.2.png">
+</li>
+
+
+<li id="section6" class="content-section">
+<h2>Skills</h2>
+<p>1 Go to <b>Theme >> Edit HTML</b>.</p>
+<p>2 Click inside the HTML Box and press <b>CTRL+F</b> then search <b>'skills'</b> &amp; and replace the <b>Red</b> text with your skills.</p>
+<img src="https://4.bp.blogspot.com/-x5vyb152AzQ/WhKXcwv4kKI/AAAAAAAAAos/IDEylY834owAK6IrghHd0Yy68Bv7HEdsACLcBGAs/s1600/10.png">
+</li>
+
+
+<li id="section7" class="content-section">
+<h2>Social Icons</h2>
+<p>1 Go to <b>Theme >> Edit HTML</b>.</p>
+<p>2 Click inside the HTML Box and press <b>CTRL+F</b> then search <b>'social'</b> &amp; and replace the <b>#</b> with your social pages link then replace the Text in <b>Blue</b> color with your Social Page Icon name and Text in <b>Red</b> color with your Social Page name.</p>
+<img src="https://2.bp.blogspot.com/-cCHkHoEnnrY/WhKXgnb6boI/AAAAAAAAAo8/POo8hlVHfZYpH80FMn-DRVgHDug5T4r3wCLcBGAs/s1600/4.png">
+</li>
+
+
+<li id="section8" class="content-section">
+<h2>Social Connections</h2>
+<p>1 Go to <b>Theme >> Edit HTML</b>.</p>
+<p>2 Click inside the HTML Box and press <b>CTRL+F</b> then search <b>'social-connection'</b> &amp; and replace the Text in <b>Red</b> color with your Social Page name.</p>
+<p>3 To change the <b>Cover</b> & <b>Profile</b> Image, replace the image <b>URL</b> with your Image <b>URL</b> .</p>
+<img src="https://4.bp.blogspot.com/-zY9Q-Zsp-jw/WhKXih_rtaI/AAAAAAAAApM/n0mHMCWDctkk2A2kaYk7wnXLD_ML_uwbACLcBGAs/s1600/5.png">
+<p>4 <b>NOTE :</b> Apply this same method to add more Pages.</p>
+</li>
+
+
+<li id="section9" class="content-section">
+<h2>Gallery Images</h2>
+<p>1 Go to <b>Layout</b>.</p>
+<p>2 Click on <b>Edit</b>.</p>
+<img src="https://3.bp.blogspot.com/-6JF0WJX-zII/WhKXiqK7xdI/AAAAAAAAApQ/Vnl7qaOFo7QaVTowOOyG1vjSoJDxM0tZQCLcBGAs/s1600/6.1.png">
+
+<p>3 Click on <b>Remove Image</b></p>
+<img src="https://1.bp.blogspot.com/-jvg6xpw3-8o/WhKXinG6iqI/AAAAAAAAApI/UPHs7jm1lDYD_v_HJdJXjlRekhHcgTsAgCLcBGAs/s1600/6.2.png">
+<p>4 Click on <b>Choose File</b> to Upload Image. OR From the Web. Past an <b>Image URL</b> below.</p>
+<p>5 Click on <b>Save</b>.</p>
+<img src="https://1.bp.blogspot.com/-PiqlF1RyeRs/WhKXdzlZYeI/AAAAAAAAAo4/rcvNhdBrSwgqE0OD_Tl5rLq8rQNjovU9QCLcBGAs/s1600/2.3.png">
+<p>6 <b>NOTE :</b> Apply this same method to upload Images.</p>
+</li>
+
+
+<li id="section10" class="content-section">
+<h2>Favorite Movies</h2>
+<p>1 Go to <b>Layout</b>.</p>
+<p>2 Click on <b>Edit</b>.</p>
+<img src="https://4.bp.blogspot.com/-r1RksYK-Mec/WhKXk2d0IwI/AAAAAAAAApY/MJ5ucyljfHAgWrgF3ziaqF7LzgliB1bawCLcBGAs/s1600/7.1.png">
+
+<p>3 Click on <b>Remove Image</b></p>
+<img src="https://4.bp.blogspot.com/-M1yCS1AztFM/WhKXkxJ39zI/AAAAAAAAApc/poEkgqgKqWQpckoPmq3dJrwkYlvUTnG5QCLcBGAs/s1600/7.2.png">
+<p>4 Add the <b>Movie</b> name.</p>
+<p>5 Click on <b>Choose File</b> to Upload Image. OR From the Web. Past an <b>Image URL</b> below.</p>
+<p>6 Click on <b>Save</b>.</p>
+<img src="https://4.bp.blogspot.com/-PBYZ_63AB1c/WhKXkyXa-pI/AAAAAAAAApU/Y6gEI_WuWkYjGw76vcq9PDWgtnO-brmKgCLcBGAs/s1600/7.3.png">
+<p>7 <b>NOTE :</b> Apply this same method to upload Images.</p>
+</li>
+
+
+<li id="section11" class="content-section">
+<h2>Favorite Personality</h2>
+<p>1 Go to <b>Layout</b>.</p>
+<p>2 Click on <b>Edit</b>.</p>
+<img src="https://1.bp.blogspot.com/-k8bail6fTAY/WhKXmLHL3yI/AAAAAAAAApg/gS6BklIwKCUzw-Am7D82ESrgTKWj3QhLgCLcBGAs/s1600/8.1.png">
+
+<p>3 Click on <b>Remove Image</b></p>
+<img src="https://4.bp.blogspot.com/-OBtggp8oe5U/WhKXm8Xu8jI/AAAAAAAAApk/m9srVy7guTs6xK0ugf14sqrcLKFs-sc1QCLcBGAs/s1600/8.2.png">
+<p>4 Add the <b>Personality</b> name.</p>
+<p>5 Click on <b>Choose File</b> to Upload Image. OR From the Web. Past an <b>Image URL</b> below.</p>
+<p>6 Click on <b>Save</b>.</p>
+<img src="https://4.bp.blogspot.com/-PBYZ_63AB1c/WhKXkyXa-pI/AAAAAAAAApU/Y6gEI_WuWkYjGw76vcq9PDWgtnO-brmKgCLcBGAs/s1600/7.3.png">
+<p>7 <b>NOTE :</b> Apply this same method to upload Images.</p>
+</li>
+
+
+<li id="section12" class="content-section">
+<h2>Meta Tags for SEO</h2>
+<p>1 Click on <b>Theme >> Edit HTML >></b> Click anywhere in the HTML Editor and press <b>CTRL+F</b> for Search Box which will be appear on right top side of HTML Editor.</p>
+<p>2 Now, first fill the meta tags by reading it one by one with the information of your blog i.e. Meta Description and Keywords, Facebook and Twitter Graph.</p>
+</li>   
+
+<div class='templatesilk-logo'>
+<a href='http://www.templatesilk.com/'><img alt='TemplateSilk' class='templatesilk' src='https://3.bp.blogspot.com/-HKc2vekkiH8/V3Dw-2ANLWI/AAAAAAAAJSg/qLyZ5f-B21Ycxv4w_H9ZERC9tuANYmLnACLcB/s320/TemplateSilk-3rdlogo.png'/></a>
+</div>
+
+</section>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script>
+$(document).ready(function(){function c(){a.each(function(){var a=$(this).attr("id"),b=$('nav a[href="#'+a+'"]');$(this).offset().top-$(window).height()/2<$(window).scrollTop()&&$(this).offset().top+$(this).height()-$(window).height()/2>$(window).scrollTop()?b.addClass("active-section"):b.removeClass("active-section")})}function d(a){$("body,html").animate({scrollTop:a.offset().top},800)}var a=$(".content-section"),b=$("nav");b.on("click","a",function(a){a.preventDefault(),d($(this.hash))}),$(window).on("scroll",function(){c()}),c()});
+</script>
+</body>
+</html>
